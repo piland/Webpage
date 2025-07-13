@@ -5,17 +5,17 @@ div.header {
   margin-bottom: 40px;
 }
 
-div.header h3 {
-  margin: 15px 50px;
-  cursor: pointer;
-}
-
-div.About {
-  margin: 50px 0px 25px 0px;
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px;
+}
+
+div.header h3 {
+  margin: 15px 50px;
+  cursor: pointer;
 }
 
 div.About h1 {
@@ -24,30 +24,6 @@ div.About h1 {
 
 div.About p {
   color: black
-}
-
-div.Projects {
-  margin: 25px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-div.Experience {
-  margin: 25px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-div.Contact {
-  margin: 25px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 div.spread {
