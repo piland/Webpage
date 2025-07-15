@@ -18,20 +18,42 @@ div.header h3 {
   cursor: pointer;
 }
 
-div.About h1 {
-  color: #614059;
-}
-
-div.About p {
-  color: black
-}
-
 div.spread {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-div.spread div {
-  margin: 15px;
+div.interest {
+  height: 25px;
+  width: 100px;
+  margin: 25px;
+  padding: 15px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+
+div.project {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  margin: 25px;
+  padding: 15px;
+}
+
+div.contact {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  margin: 25px;
+  padding: 15px;
 }
